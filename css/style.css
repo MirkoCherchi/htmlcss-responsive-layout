@@ -126,38 +126,39 @@ ul li .btn{
     width: 100%;
     background-color: #9792e4;
     border-radius: 50px;
-    
-
 }
-
-
-
-
 
 /* /sezione3 */
 
+/* sezione4 */
 
+.sezione4{
+    padding: 75px 0 65px 0;
+    
+}
 
+.blocco-sez4{
+    width: calc((100% - 60px) / 3);
+    background-color: #ffffff;
+    height: 420px;
+    border-radius: 20px;
+}
 
+.sezione4-cont{
+    background-color: #9792e4;
+}
 
+.blocchi-sez4{
+    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.testo-sez4{
+    padding-bottom: 70px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* /sezione4 */
 
 
 
@@ -210,6 +211,20 @@ ul li .btn{
         padding-bottom: 110px;
     }
     /* sezione3 */
+    
+    /* sezione4 */
+    .blocchi-sez4{
+         padding-bottom: 65px;
+    }
+
+    .blocco-sez4{
+        width: calc((100% - 30px) / 2); 
+    }
+
+    .testo-sez4{
+        padding: 75px 0;
+    }
+    /* /sezione4 */
 
     
     /* /main */
@@ -244,6 +259,13 @@ ul li .btn{
      /* sezione3 */
     
     /* sezione3 */
+    /* sezione4 */
+   
+   .blocco-sez4{
+       width: 100%; 
+   }
+
+    /* /sezione4 */
 
 
 
