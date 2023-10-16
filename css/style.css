@@ -57,6 +57,8 @@ ul li .btn{
 
 /* main */
 
+/* seazione 1 */
+
 .sezione1{
     padding: 50px 0 105px 0;
     display: flex;
@@ -77,6 +79,37 @@ ul li .btn{
     width: calc((200% - 25px) / 3);
 }
 
+/* /seazione 1 */
+
+/* sezione2 */
+
+.sezione2-cont{
+    background-color: #9792e4;
+}
+ .sezione2{
+    height: 930px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 135px 135px 35px 135px;
+    align-items: end;
+    gap: 65px;
+    
+ }
+
+ .sez2-left{
+    height: 100%;
+    background-color: red;
+    width: calc(100% / 2 - 65px);
+ }
+
+ .sez2-right{
+    height: 70%;
+    background-color: red;
+    width: calc(100% / 2);
+ }
+
+
+/* /sezione2 */
 
 
 
@@ -124,10 +157,29 @@ ul li .btn{
     /* /header */
 
     /* main */
+    
+    /* sezione1 */
     .sezione1{
-        padding: 50px 33px 105px 33px;
-        
+        padding-top: 50px;    
+        padding-bottom: 105px;
     }
+    /* /sezione1 */
+
+    /* sezione2 */
+    .sezione2{
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-top: 135px;
+    padding-bottom: 60px;
+
+    }
+
+    .sez2-left, .sez2-right{
+        width: 100%;
+    }
+
+    
+    /* sezione2 */
     /* /main */
    
 }
@@ -152,6 +204,12 @@ ul li .btn{
         width: 100%;
      }
     /* /sezione1 */
+
+    /* sezione2 */
+  
+    /* sezione2 */
+
+    
 
      /* /main */
 }
