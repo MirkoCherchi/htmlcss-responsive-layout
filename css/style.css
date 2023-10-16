@@ -157,8 +157,31 @@ ul li .btn{
 .testo-sez4{
     padding-bottom: 70px;
 }
-
 /* /sezione4 */
+
+/* sezione5 */
+
+
+.sez5-cont{
+    display: flex;
+    height: 885px;
+    gap: 100px;
+    padding: 95px 45px 165px 45px;
+}
+
+
+.sez5-left{
+    height: 100%;
+    background-color: red;
+    width: calc(200% / 2 - 100px);
+ }
+
+ .sez5-right{
+    height: 70%;
+    background-color: red;
+    width: calc(80% / 2);
+ }
+/* /sezione5 */
 
 
 
@@ -196,13 +219,11 @@ ul li .btn{
     flex-wrap: nowrap;
     padding-top: 135px;
     padding-bottom: 60px;
-
     }
 
     .sez2-left, .sez2-right{
         width: 100%;
     }
-    
     /* /sezione2 */
 
     /* sezione3 */
@@ -225,6 +246,9 @@ ul li .btn{
         padding: 75px 0;
     }
     /* /sezione4 */
+    
+    /* sezione5 */
+    /* /sezione5 */
 
     
     /* /main */
@@ -253,19 +277,39 @@ ul li .btn{
     /* /sezione1 */
 
     /* sezione2 */
-  
     /* sezione2 */
 
      /* sezione3 */
-    
     /* sezione3 */
+    
     /* sezione4 */
    
    .blocco-sez4{
        width: 100%; 
    }
-
     /* /sezione4 */
+
+    /* sezione5 */
+
+    .sez5-cont{
+        display: flex;
+        flex-direction: column;
+        padding-top: 100px;
+        padding-bottom: 80px;
+    
+    
+    .sez5-left{
+        height: 100%;
+        background-color: red;
+        width: 100%;
+     }
+    
+     .sez5-right{
+        height: 70%;
+        background-color: red;
+        width: 100%;
+     }
+    /* /sezione5 */
 
 
 
