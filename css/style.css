@@ -111,6 +111,30 @@ ul li .btn{
 
 /* /sezione2 */
 
+/* sezione3 */
+
+.sezione3{
+    padding: 65px 0 110px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    
+}
+
+.blocco-sez3{
+    height: 280px;
+    width: 100%;
+    background-color: #9792e4;
+    border-radius: 50px;
+    
+
+}
+
+
+
+
+
+/* /sezione3 */
 
 
 
@@ -177,9 +201,17 @@ ul li .btn{
     .sez2-left, .sez2-right{
         width: 100%;
     }
+    
+    /* /sezione2 */
+
+    /* sezione3 */
+    .sezione3{
+        padding-top: 65px;
+        padding-bottom: 110px;
+    }
+    /* sezione3 */
 
     
-    /* sezione2 */
     /* /main */
    
 }
@@ -209,7 +241,11 @@ ul li .btn{
   
     /* sezione2 */
 
+     /* sezione3 */
     
+    /* sezione3 */
+
+
 
      /* /main */
 }
