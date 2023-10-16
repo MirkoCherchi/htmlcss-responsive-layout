@@ -161,7 +161,6 @@ ul li .btn{
 
 /* sezione5 */
 
-
 .sez5-cont{
     display: flex;
     height: 885px;
@@ -182,6 +181,32 @@ ul li .btn{
     width: calc(80% / 2);
  }
 /* /sezione5 */
+
+/* sezione6 */
+
+.sezione6-cont{
+    background-color: #9792e4;
+}
+
+.sezione6{
+    height: 625px;
+}
+
+/* /sezione6 */
+
+/* /main */
+
+/* footer */
+
+.foot-cont{
+   background-color: #333333; 
+}
+
+.footer-sez{
+    height: 225px;
+}
+
+/* /footer */
 
 
 
@@ -250,8 +275,14 @@ ul li .btn{
     /* sezione5 */
     /* /sezione5 */
 
+    /* sezione6 */
+    /* /sezione6 */
+
     
     /* /main */
+
+    /* footer */
+    /* /footer */
    
 }
 /* mobile da 0 a 576 */
@@ -311,9 +342,13 @@ ul li .btn{
      }
     /* /sezione5 */
 
+    /* sezione6 */
+    /* /sezione6 */
 
+    /* /main */
 
-     /* /main */
+    /* footer */
+    /* /footer */
 }
 
 
