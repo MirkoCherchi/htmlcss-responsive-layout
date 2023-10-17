@@ -473,7 +473,19 @@ ul li{
 }
 
 .footer-sez{
-    height: 225px;
+    text-align: center;
+    width: 25%;
+    padding-top: 45px;
+    color: #ffffff;
+}
+
+.p-foot-bottom{
+    padding: 70px 0 40px 0;
+}
+
+.foot-sott{
+    color: #9792e4;
+    text-decoration: underline;
 }
 
 /* /footer */
@@ -583,6 +595,11 @@ ul li{
     /* /main */
 
     /* footer */
+    .footer-sez{
+        padding-top: 45px;
+        width: 50%;
+    }
+    
     /* /footer */
    
 }
@@ -695,5 +712,9 @@ ul li{
     /* /main */
 
     /* footer */
+    .footer-sez{
+        width: 100%;
+    }
+    
     /* /footer */
 }
