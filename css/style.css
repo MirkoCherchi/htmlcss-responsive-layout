@@ -422,8 +422,45 @@ ul li{
 }
 
 .sezione6{
-    height: 625px;
+    text-align: center;
+    padding: 65px 0;
+    color: #ffffff;
 }
+
+.tit-mini6{
+    font-size: 48px;
+    padding: 35px 0 60px 0;
+}
+
+.tit-big6{
+    font-size: 96px;
+    color: #fdc15f;
+}
+
+.p-sez6{
+    line-height: 30px;
+    padding: 50px 0 35px 0; 
+}
+
+.btn-big{
+    background-color: #ffffff;
+    color: #9792e4;
+    border-radius: 40px;
+    padding: 25px 80px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.text-cop{
+    font-size: 14px;
+    padding-top: 35px;
+}
+
+.text-sott{
+    text-decoration: underline;
+}
+
+
 
 /* /sezione6 */
 
@@ -536,6 +573,10 @@ ul li{
     /* /sezione5 */
 
     /* sezione6 */
+    .sezione6{
+        padding: 65px 0;
+
+    }
     /* /sezione6 */
 
     
@@ -644,6 +685,11 @@ ul li{
     /* /sezione5 */
 
     /* sezione6 */
+
+    br{
+        display: none;
+    }
+    
     /* /sezione6 */
 
     /* /main */
