@@ -1,4 +1,4 @@
-# Dropbox
+# Responsive Layout
 
 Esercizio "Responsive Layout" da eseguire in 2 giorni dal 16/10/2023 al 17/10/2023
 
