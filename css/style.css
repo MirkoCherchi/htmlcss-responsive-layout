@@ -21,7 +21,7 @@ img{
 }
 
 .mini-cont{
-    max-width: 1140px;
+    max-width: 71.25rem;
     margin: 0 auto;
 }
 
@@ -53,12 +53,12 @@ ul li{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 75px; 
+    height: 4.6875rem; 
 }
 
 .list-nav{
     display: flex;
-    gap: 35px;
+    gap: 2.1875rem;
     align-items: center;
 }
 
@@ -67,8 +67,8 @@ ul li{
 }
 
 .btn-nav{
-    padding: 7px 15px;
-    border-radius: 15px;
+    padding: .4375rem .9375rem;
+    border-radius: .9375rem;
 }
 
 /* /header */
@@ -78,77 +78,78 @@ ul li{
 /* seazione 1 */
 
 .sezione1{
-    padding: 50px 0 105px 0;
+    padding: 3.125rem 0 6.5625rem 0;
     display: flex;
     flex-wrap: wrap;
-    gap: 25px;
+    gap: 1.5625rem;
     
 }
 
 .blocco{
-    width: calc((100% - 50px) / 3);
+    width: calc((100% - 3.125rem) / 3);
     background-color: #b5ddff;
-    gap: 25px;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     display: flex;
 }
 
 .blocco-big{
-    width: calc((200% - 25px) / 3);
+    width: calc((200% - 1.5625rem) / 3);
     
 }
 .left{
     width: 50%;
-    padding: 40px 0 0 25px;
+    padding: 2.5rem 0 0 1.5625rem;
 }
 .right{
     width: 50%;
+    display: flex;
 }
 
 .right .img-sez1{
     width: 100%;
     display: block;
-    padding: 70px 70px 0 0;
+    padding: 4.375rem 4.375rem 0 0;
+    justify-content: flex-end;
 }
 
 .p-sez1{
-    margin: 40px 0;
-    line-height: 30px;
+    margin: 2.5rem 0;
+    line-height: 1.875rem;
     color: #5a6e7f;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: bold;
 }
 
 .text-sez1{
-    font-size: 24px;
+    font-size: 1.5rem;
     color: #0084fd;
 }
 
 .btn-app{
-    padding: 8px 55px;
-    border-radius: 25px;
-    font-size: 15px;
+    padding: .5rem 3.4375rem;
+    border-radius: 1.5625rem;
+    font-size: .9375rem;
     background-color: #0084fd;
     color: #ffffff;
     font-weight: bolder;
-    letter-spacing: 2px;
+    letter-spacing: .125rem;
     cursor: pointer;
 }
 
 .fa-apple{
-    margin-right: 5px;
+    margin-right: .3125rem;
 }
 
 .blocco-mini{
     display: block;
     text-align: center;
-    padding: 30px 25px 0 25px;
+    padding: 1.875rem 1.5625rem 0 1.5625rem;
 }
 
 .icon{
-    font-size: 60px;
+    font-size: 3.75rem;
     color: #0084fd;
-    padding-bottom: 25px;
+    padding-bottom: 1.5625rem;
 }
 
 /* /seazione 1 */
@@ -161,21 +162,21 @@ ul li{
  .sezione2{
     display: flex;
     flex-wrap: wrap;
-    padding: 135px 135px 35px 135px;
-    gap: 65px; 
+    padding: 0 8.4375rem 2.1875rem 8.4375rem;
+    gap: 4.0625rem; 
  }
 
  .sez2-left{
-    width: calc(100% / 2 - 65px);
+    width: calc(100% / 2 - 4.0625rem);
     color: #ffffff;
-    padding-top: 125px;
+    padding-top: 7.8125rem;
  }
 
  .sez2-right{
     width: calc(100% / 2);
     background-color: #ffffff;
-    margin: 300px 0 65px 0;
-    border-radius: 15px;
+    margin: 18.75rem 0 4.0625rem 0;
+    border-radius: .9375rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -183,38 +184,38 @@ ul li{
  }
 
  .text-sez2{
-    font-size: 34px;
-    padding: 130px 0 60px 0;
+    font-size: 2.125rem;
+    padding: 8.125rem 0 3.75rem 0;
  }
 
  .p-sez2{
-    font-size: 16px;
-    padding-bottom: 65px;
-    line-height: 25px;
+    font-size: 1rem;
+    padding-bottom: 4.0625rem;
+    line-height: 1.5625rem;
  }
 
  .img-planning2{
     width: 50%;
-    padding-top: 30px;
+    padding-top: 1.875rem;
  }
  
  .titolino-sez2-right{
-    font-size: 24px;
-    padding-top: 25px;
+    font-size: 1.5rem;
+    padding-top: 1.5625rem;
  }
 
 
  .p-right-sez2{
-    font-size: 18px;
-    padding: 25px 40px;
+    font-size: 1.125rem;
+    padding: 1.5rem 2.5rem;
     font-style: italic;
  }
 
  .icon-arrow{
     background-color: #9593e6;
     border-radius: 100%;
-    padding: 10px 15px;
-    margin: 40px 0 30px 0;
+    padding: .625rem .9375rem;
+    margin: 2.5rem 0 1.875rem 0;
  }
 
 /* /sezione2 */
@@ -222,20 +223,20 @@ ul li{
 /* sezione3 */
 
 .sezione3{
-    padding: 65px 0 110px 0;
+    padding: 4.0625rem 0 6.875rem 0;
     display: flex;
     flex-direction: column;
-    gap: 35px;
+    gap: 2.1875rem;
 
 }
 
 .blocco-sez3{
     
     background-color: #9792e4;
-    border-radius: 50px;
+    border-radius: 3.125rem;
     display: flex;
     align-items: center;
-    padding: 30px 60px 45px 15px;
+    padding: 1.875rem 3.75rem 2.8125rem .9375rem;
 }
 
 .testo-sez3{
@@ -243,39 +244,40 @@ ul li{
 }
 
 .p-sez3{
-    font-size: 20px;
-    line-height: 35px;
+    font-size: 1.25rem;
+    line-height: 2.1875rem;
 }
 
 
 .titolo-sez3{
-    font-size: 48px;
+    font-size: 3rem;
     color: #9792e4;
-    padding-top: 40px;
+    padding-top: 2.5rem;
 }
 
 .p-top-sez3{
-    padding: 50px 0;
+    padding: 3.125rem 0;
 }
 
 .p-sez3-bottom{
     color: #ffffff;
-    padding-bottom: 35px;
+    padding-bottom: 2.1875rem;
 }
 
 
 .img-testimonials{
-    clip-path: circle(35%); 
-    margin: 0 -50px; 
+    clip-path: circle(38%); 
+    margin: 0 -3.125rem; 
+    object-fit: cover;
 }
 
 .blocco-left3{
-    margin-right: -50px;
+    margin-right: -3.125rem;
 }
 
 .descrizione-img{
     color: #ffffff;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 /* /sezione3 */
@@ -283,14 +285,14 @@ ul li{
 /* sezione4 */
 
 .sezione4{
-    padding: 75px 0 65px 0; 
+    padding: 4.6875rem 0 4.0625rem 0; 
 }
 
 .blocco-sez4{
-    width: calc((100% - 60px) / 3);
+    width: calc((100% - 3.75rem) / 3);
     background-color: #ffffff;
-    border-radius: 20px;
-    padding: 55px 40px 35px 30px;
+    border-radius: 1.25rem;
+    padding: 3.4375rem 2.5rem 2.1875rem 1.875rem;
 }
 
 .sezione4-cont{
@@ -298,46 +300,46 @@ ul li{
 }
 
 .blocchi-sez4{
-    gap: 30px;
+    gap: 1.875rem;
     display: flex;
     flex-wrap: wrap; 
 }
 
 .testo-sez4{
-    padding-bottom: 70px;
+    padding-bottom: 4.375rem;
     text-align: center;
     color: #ffffff;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: bold;
 }
 
 .number{
-    font-size: 72px;
+    font-size: 4.5rem;
     font-weight: bold;
     color: #9792e4;
 }
 
 .tit-sez4{
-    font-size: 24px;
-    padding: 25px 0;
+    font-size: 1.5rem;
+    padding: 1.5625rem 0;
     color: #9792e4;
 }
 
 .p-sez4{
-    line-height: 25px;
+    line-height: 1.5625rem;
     color: #737373;
 }
 
 .btn-sez4{
-    padding: 7px 45px;
-    border-radius: 25px;
-    font-size: 15px;
+    padding: .4375rem 2.8125rem;
+    border-radius: 1.5625rem;
+    font-size: .9375rem;
     background-color: #9792e4;
     color: #ffffff;
     font-weight: bolder;
-    letter-spacing: 2px;
+    letter-spacing: .125rem;
     cursor: pointer;
-    margin: 30px 0;
+    margin: 1.875rem 0;
 }
 
 
@@ -347,13 +349,13 @@ ul li{
 
 .sez5-cont{
     display: flex;
-    gap: 100px;
-    padding: 95px 45px 165px 45px;
+    gap: .625rem;
+    padding: 5.9375rem 2.8125rem 10.3125rem 2.8125rem;
 }
 
 
 .sez5-left{
-    width: calc(200% / 2 - 100px);
+    width: calc(200% / 2 - 6.25rem);
  }
 
  .sez5-right{
@@ -361,22 +363,22 @@ ul li{
  }
 
  .tit-sez5{
-    font-size: 72px;
+    font-size: 4.5rem;
     color: #9792e4;
  }
 
  .p-sez5{
-    font-size: 20px;
-    line-height: 40px;
+    font-size: 1.25rem;
+    line-height: 2.5rem;
     color: #111111;
  }
 
  .p-sez5-left1{
-    padding: 75px 0;
+    padding: 4.6875rem 0;
  }
 
  .p-sez5-left2{
-    padding-bottom: 155px;
+    padding-bottom: 9.6875rem;
  }
 
  .img-about{
@@ -388,29 +390,31 @@ ul li{
  }
 
  .icon-per-img{
-    font-size: 70px;
+    font-size: 4.375rem;
     color: #9792e4;
     position: absolute;
-    right: 15px;
-    top: 30px;
+    right: .9375rem;
+    top: 1.875rem;
  }
 
+ 
+
  .tit-sez5-icon{
-    font-size: 30px;
+    font-size: 1.875rem;
     color: #9792e4;
     font-weight: bolder;
-    padding: 35px 0px 35px 0;
+    padding: 2.1875rem 0px 2.1875rem 0;
  }
 
  .btn-icon-img{
     color: #ffffff;
     background-color: #9792e4;
-    padding: 8px 15px;
-    border-radius: 15px;
+    padding: .5rem .9375rem;
+    border-radius: .9375rem;
  }
 
  .fa-linkedin{
-    padding-right: 10px;
+    padding-right: .625rem;
  }
 
 /* /sezione5 */
@@ -423,37 +427,37 @@ ul li{
 
 .sezione6{
     text-align: center;
-    padding: 65px 0;
+    padding: 4.0625rem 0;
     color: #ffffff;
 }
 
 .tit-mini6{
-    font-size: 48px;
-    padding: 35px 0 60px 0;
+    font-size: 3rem;
+    padding: 2.1875rem 0 3.75rem 0;
 }
 
 .tit-big6{
-    font-size: 96px;
+    font-size: 6rem;
     color: #fdc15f;
 }
 
 .p-sez6{
-    line-height: 30px;
-    padding: 50px 0 35px 0; 
+    line-height: 1.875rem;
+    padding: 3.125rem 0 2.1875rem 0; 
 }
 
 .btn-big{
     background-color: #ffffff;
     color: #9792e4;
-    border-radius: 40px;
-    padding: 25px 80px;
+    border-radius: 2.5rem;
+    padding: 1.5625rem 5rem;
     font-weight: bold;
-    font-size: 15px;
+    font-size: .9375rem;
 }
 
 .text-cop{
-    font-size: 14px;
-    padding-top: 35px;
+    font-size: .875rem;
+    padding-top: 2.1875rem;
 }
 
 .text-sott{
@@ -475,12 +479,12 @@ ul li{
 .footer-sez{
     text-align: center;
     width: 25%;
-    padding-top: 45px;
+    padding-top: 2.8125rem;
     color: #ffffff;
 }
 
 .p-foot-bottom{
-    padding: 70px 0 40px 0;
+    padding: 4.375rem 0 2.5rem 0;
 }
 
 .foot-sott{
@@ -507,7 +511,7 @@ ul li{
         display: block;
     }
     .mini-cont{
-        padding: 0 30px;
+        padding: 0 1.875rem;
     }
     /* /header */
 
@@ -515,8 +519,8 @@ ul li{
     
     /* sezione1 */
     .sezione1{
-        padding-top: 50px;    
-        padding-bottom: 105px;
+        padding-top: 3.125rem;    
+        padding-bottom: 6.5625rem;
     }
 
     .blocco{
@@ -529,24 +533,20 @@ ul li{
         width: 60%;
     }
 
-    
-
-
-
     /* /sezione1 */
 
     /* sezione2 */
     .sezione2{
     flex-direction: column;
     flex-wrap: nowrap;
-    padding-top: 125px;
+    padding-top: 7.8125rem;
     gap: 0px;
        
 }
 
     .sez2-left, .sez2-right{
         width: 100%;
-        margin: 0 0 60px 0; 
+        margin: 0 0 3.75rem 0; 
         padding: 0;
     }
 
@@ -557,22 +557,22 @@ ul li{
 
     /* sezione3 */
     .sezione3{
-        padding-top: 65px;
-        padding-bottom: 110px;
+        padding-top: 4.0625rem;
+        padding-bottom: 6.875rem;
     }
     /* sezione3 */
     
     /* sezione4 */
     .blocchi-sez4{
-         padding-bottom: 65px;
+         padding-bottom: 4.0625rem;
     }
 
     .blocco-sez4{
-        width: calc((100% - 30px) / 2); 
+        width: calc((100% - 1.875rem) / 2); 
     }
 
     .testo-sez4{
-        padding: 75px 0;
+        padding: 4.6875rem 0;
     }
     /* /sezione4 */
     
@@ -586,7 +586,7 @@ ul li{
 
     /* sezione6 */
     .sezione6{
-        padding: 65px 0;
+        padding: 4.0625rem 0;
 
     }
     /* /sezione6 */
@@ -596,7 +596,7 @@ ul li{
 
     /* footer */
     .footer-sez{
-        padding-top: 45px;
+        padding-top: 2.8125rem;
         width: 50%;
     }
     
@@ -619,7 +619,7 @@ ul li{
 
      .sezione1{
         display: block;
-        max-width: 768px;
+        max-width: 48rem;
      }
 
      .blocco{
@@ -630,24 +630,22 @@ ul li{
      .left,
      .right{
         width: 100%;
-        padding: 20px 25px 0 25px;
+        padding: 1.25rem 1.5625rem 0 1.5625rem;
         text-align: start;
      }
 
      .img-sez1{
         width: 100%;
-        margin-left: 35px;
+        margin-left: 2.1875rem;
      }
 
      .blocco{
-        margin-bottom: 25px;
+        margin-bottom: 1.5625rem;
      }
 
      .blocco-mini{
-        padding-bottom: 25px;
+        padding-bottom: 1.5625rem;
      }
-   
-     
 
     /* /sezione1 */
 
@@ -660,12 +658,12 @@ ul li{
      }
 
      .blocco-left3{
-        margin-left: 90px;
+        margin-left: 5.625rem;
      }
 
      .blocco-right3{
         text-align: center;
-        margin-left: 35px;
+        margin-left: 2.1875rem;
      }
      
 
@@ -683,8 +681,8 @@ ul li{
     .sez5-cont{
         display: flex;
         flex-direction: column;
-        padding-top: 100px;
-        padding-bottom: 80px;
+        padding-top: 6.25rem;
+        padding-bottom: 5rem;
     }
     
     .sez5-left{
